@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print _alphabet - entry point
+ * print _alphabet - prints the alpha in lower case
  *
  * Return: 0
  */
