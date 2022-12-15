@@ -10,6 +10,7 @@
 int numLength(int num)
 {
 	int length = 0;
+
 	if (!num)
 	{
 		return (1);
@@ -19,6 +20,7 @@ int numLength(int num)
 		num = num / 10;		
 		length += 1;
 	}
+	
 	return (length);
 }
 /**
@@ -30,6 +32,7 @@ int main(void)
 {
 	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
 	short int i = 1, initial0s;
+
 	while (i <= 98)
 	{
 		if (f1o > 0)
