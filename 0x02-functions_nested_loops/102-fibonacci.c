@@ -24,10 +24,10 @@ int main(void)
 		{
 			printf("%ld\n", j);
 		}
-		
-		l = j + k;
-	       	= k;
-		k = l;
+	
+	l = j + k;
+       	= k;
+	k = l;
 	}
 	
 	return (0);
